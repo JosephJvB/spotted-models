@@ -1,14 +1,5 @@
 import { ISpotifyArtistTrim, ISpotifyImage } from "."
 
-export interface ISpotifyTopTracksResponse {
-  items: ISpotifyTrack[]
-  total: number
-  limit: number
-  offset: number
-  href: string
-  previous: string
-  next: string
-}
 export interface ISpotifyTrack {
   album: ISpotifyAlbum
   artists: ISpotifyArtistTrim[]

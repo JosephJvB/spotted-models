@@ -1,14 +1,5 @@
 import { ISpotifyImage } from "."
 
-export interface ISpotifyTopArtistsResponse {
-  items: ISpotifyArtist[]
-  total: number
-  limit: number
-  offset: number
-  href: string
-  previous: string
-  next: string
-}
 export interface ISpotifyArtist {
   external_urls: {
     spotify: string

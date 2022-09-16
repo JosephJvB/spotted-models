@@ -1,4 +1,4 @@
-import { ISpotifyProfile, ISpotifyTopTracksResponse } from "."
+import { ISpotifyPaginatedResponse, ISpotifyProfile, ISpotifyTrack } from "."
 
 export interface ISpotifyPlaylist {
   id: string
@@ -10,5 +10,5 @@ export interface ISpotifyPlaylist {
     total: number
   }
   owner: ISpotifyProfile
-  tracks: ISpotifyTopTracksResponse[]
+  tracks: ISpotifyPaginatedResponse<ISpotifyTrack>[]
 }
