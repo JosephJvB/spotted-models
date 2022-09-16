@@ -18,7 +18,7 @@ export interface ISpotifyRefreshResponse {
   expires_in: number
 }
 
-export interface ISpotifyMeResponse {
+export interface ISpotifyProfile {
   country: string
   display_name: string
   email: string
