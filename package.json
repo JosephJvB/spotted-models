@@ -1,6 +1,6 @@
 {
   "name": "spotty-models",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "",
   "main": "index.js",
   "directories": {
@@ -8,8 +8,7 @@
   },
   "scripts": {
     "tsc": "tsc",
-    "publish": "npm publish",
-    "prepublish": "rm -r ./lib/* && tsc"
+    "build": "rm -r ./lib/* && tsc"
   },
   "keywords": [],
   "author": "",
