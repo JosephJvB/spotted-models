@@ -1,11 +1,9 @@
 {
   "name": "jvb-spotty-models",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
   "main": "index.js",
-  "directories": {
-    "lib": "lib"
-  },
+  "files": ["lib"],
   "scripts": {
     "tsc": "tsc",
     "build": "rm -r ./lib/* && tsc"
