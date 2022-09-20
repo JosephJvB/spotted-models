@@ -11,7 +11,7 @@ export interface ISpotifyPlaylist {
   }
   name: string
   owner: ISpotifyProfile
-  tracks: ISpotifyPaginatedResponse<ISpotifyTrack>[]
+  tracks: ISpotifyPaginatedResponse<ISpotifyPlaylistTrack>[]
 }
 export interface ISpotifyPlaylistTrack {
   added_at: string
