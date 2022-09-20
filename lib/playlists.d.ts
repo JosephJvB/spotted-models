@@ -8,6 +8,11 @@ export interface ISpotifyPlaylist {
         href: string;
         total: number;
     };
+    name: string;
     owner: ISpotifyProfile;
     tracks: ISpotifyPaginatedResponse<ISpotifyTrack>[];
+}
+export interface ISpotifyPlaylistTrack {
+    added_at: string;
+    track: ISpotifyTrack;
 }
