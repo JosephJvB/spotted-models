@@ -1,4 +1,4 @@
-import { ISpotifyPaginatedResponse, ISpotifyProfile, ISpotifyTrack } from ".";
+import { ISpotifyProfile, ISpotifyTrack } from ".";
 export interface ISpotifyPlaylist {
     id: string;
     href: string;
@@ -10,7 +10,10 @@ export interface ISpotifyPlaylist {
     };
     name: string;
     owner: ISpotifyProfile;
-    tracks: ISpotifyPaginatedResponse<ISpotifyPlaylistTrack>[];
+    tracks: {
+        href: string;
+        total: number;
+    };
 }
 export interface ISpotifyPlaylistTrack {
     added_at: string;
