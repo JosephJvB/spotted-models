@@ -5,5 +5,5 @@ export declare enum SpotifyItemType {
 export declare enum SpotifyTopRange {
     shortTerm = "short_term",
     mediumTerm = "medium_term",
-    longtTerm = "long_term"
+    longTerm = "long_term"
 }
