@@ -30,3 +30,19 @@ export interface ISpotifyAlbum {
     name: string;
     release_date: string;
 }
+export interface IAudioFeatures {
+    acousticness: number;
+    analysis_url: string;
+    danceability: number;
+    energy: number;
+    id: string;
+    instrumentalness: number;
+    key: number;
+    liveness: number;
+    mode: number;
+    speechiness: number;
+    tempo: number;
+    time_signature: number;
+    uri: string;
+    valence: number;
+}
